@@ -2,8 +2,8 @@
 import Post from "@/components/post";
 
 const Page = ({ params }) => {
-  if (localStorage.post) {
-    localStorage.removeItem("post");
+  if (localStorage?.post) {
+    localStorage?.removeItem("post");
   }
   const id = params.slug;
   return <Post id={id} />;
