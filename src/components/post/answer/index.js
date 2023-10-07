@@ -25,7 +25,7 @@ const AnswerSection = ({ post_id }) => {
             <div className="ml-28">
               <h2>Answers</h2>
             </div>
-            <div className="-mr-32">
+            <div className="-mr-12">
               <ButtonGroup
                 buttons={["Newest", "Oldest"]}
                 selected={sortType}
