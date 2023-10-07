@@ -5,7 +5,7 @@ Deployed site: https://stackoverflow-sp.vercel.app/
 - Major Tech used:
   1. next.js(app router)
   2. redux toolkit
-  3. tailwind css
+  3. tailwind css and manual css
 
 To setup it locally:
 
