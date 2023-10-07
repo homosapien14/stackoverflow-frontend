@@ -5,7 +5,7 @@ import {
   createSingleAnswer as _createSingleAnswer,
   deleteSingleAnswer as _deleteSingleAnswer,
 } from "./url";
-const BASE_URL = "http://127.0.0.1:8081";
+const BASE_URL = "https://stackoverflow-y33h.onrender.com";
 export const allAnswersData = async (id) => {
   const response = await axios.get(BASE_URL + "/api/posts/answers/" + id);
   return response;

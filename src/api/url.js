@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8081";
+const BASE_URL = "https://stackoverflow-y33h.onrender.com";
 export const usersData = BASE_URL + "/api/users";
 export const profileData = BASE_URL + "/api/users/{id}";
 
