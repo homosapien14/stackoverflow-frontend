@@ -6,10 +6,9 @@ import { Provider } from "react-redux";
 
 const LoginPage = () => {
   return (
-    <Provider store={store}>
-      <Header />
+    <>
       <Login />
-    </Provider>
+    </>
   );
 };
 
