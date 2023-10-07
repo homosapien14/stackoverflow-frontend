@@ -1,4 +1,4 @@
-# It is clone of a various famous site called Stackoverflow
+# It is clone of a very famous site called Stackoverflow
 Deployed site: https://stackoverflow-sp.vercel.app/
 
 
