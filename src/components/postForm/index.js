@@ -18,7 +18,7 @@ const PostForm = () => {
   //   dispatch(loadUser());
   // }, [dispatch]);
 
-  if (!localStorage?.token) {
+  if (typeof window !== "undefined" && !localStorage?.token) {
     redirect("/login");
   }
 

@@ -2,7 +2,7 @@
 import Post from "@/components/post";
 
 const Page = ({ params }) => {
-  if (localStorage?.post) {
+  if (typeof window !== "undefined" && localStorage?.post) {
     localStorage?.removeItem("post");
   }
   const id = params.slug;
