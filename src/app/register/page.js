@@ -1,16 +1,10 @@
-"use client";
 import Register from "@/components/register";
-import Header from "@/components/organisms/header";
-import store from "@/redux/store";
-import { Provider } from "react-redux";
 
+export const metadata = {
+  title: "Register on stackoverflow",
+};
 const RegisterPage = () => {
-  return (
-    <Provider store={store}>
-      <Header />
-      <Register />
-    </Provider>
-  );
+  return <Register />;
 };
 
 export default RegisterPage;

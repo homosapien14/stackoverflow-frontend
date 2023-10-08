@@ -1,3 +1,4 @@
+"use client";
 import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { redirect } from "next/navigation";

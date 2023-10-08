@@ -33,8 +33,8 @@ const PostCard = ({ post }) => {
   );
   const answer = (
     <div className="vote  text-lg">
-      <span className="vote-count">{numberOfAnswers}</span>
-      <div className="count-text">answers</div>
+      <span className="vote-count text-black">{numberOfAnswers}</span>
+      <div className="count-text text-black">answers</div>
     </div>
   );
   return (

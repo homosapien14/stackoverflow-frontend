@@ -6,10 +6,10 @@ import { getPost } from "@/redux/posts/posts.slice";
 import LinkButton from "@/components/molecules/linkButton/linkButton.molecule";
 import AnswerSection from "./answer";
 import QuestionSection from "./question";
-import Spinner from "@/assets/spinner";
 import { getAnswers } from "@/redux/answers/answers.slice";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import Spinner from "../molecules/spinner";
 
 const Post = ({ id }) => {
   const dispatch = useDispatch();
