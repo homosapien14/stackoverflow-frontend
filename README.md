@@ -9,7 +9,7 @@ Deployed site: https://stackoverflow-sp.vercel.app/
 
 To setup it locally:
 
-1. clone project and install all dependecies, I used one the outdate library for markdown editor (to override the error please use --force) :
+1. clone project and install all dependecies, I used one of the outdate library for markdown editor (to override the error please use --force) :
   ```
   npm install --force
   ```
